@@ -1,0 +1,50 @@
+body{
+color: aliceblue;
+    background-color: black;
+   /* display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+#imageLeft{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+#imageLeft img{
+    height: 800px;
+}
+
+#rectangleTitle{
+    /*border: yellow 5px solid;*/
+    background-color:hsla(0, 0%, 0%, 0.397);
+    height: 130px;
+    width: 540px;
+    position: absolute;
+    left:160px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rectangleTitle img{
+    height: 150px;
+}
+
+
+
+
+
+
+#datos{
+    /*border: yellow 5px solid;*/
+    background-color:hsla(0, 0%, 0%, 0.718);
+    height: 800px;
+    width: 500px;
+    position: absolute;
+    left:700px;
+}
+
