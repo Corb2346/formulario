@@ -40,12 +40,12 @@ body{
     /*border: yellow 5px solid;*/
     background-color:hsla(0, 0%, 0%, 0.718);
     height: 800px;
-    width: 525px;
+    width: 580px;
     position: absolute;
     left:700px;
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items:center;
     flex-wrap: wrap;
 }
 
@@ -63,15 +63,7 @@ body{
     gap:15px;
     padding-top: 50px;
     padding-bottom: 25px;
-    
-  
-    
-  
-    
 }
-
-
-
 .form{
     height: 25px;
     border-radius: 5px;
@@ -84,12 +76,6 @@ body{
 }
 .form:hover{
    border:solid 2px rgb(243, 255, 255);
-}
-
-
-
-label{
-  
 }
 
 .contenedorRegistros{

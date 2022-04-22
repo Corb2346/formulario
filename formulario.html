@@ -23,48 +23,39 @@
         </div>
 
         <div id="botonesContenedor"> 
-
-      
                 
                 <div class="contenedorRegistros"> 
-                <label for="firstName">First Name </label>
-                <input id="inputOne" class="form">  </input>
+                <label for="firstName">*First Name </label>
+                <input type="text" id="inputOne" class="form" name="firstName"required>  </input>
 
                 </div>
                
                 <div class="contenedorRegistros">
 
                 <label for="lastName">Last Name</label>
-                <input id="inputTwo" class="form"> </input>
+                <input type="text" id="inputTwo" class="form" name="lastName"> </input>
                 </div>
                 
                 <div class="contenedorRegistros">
-                <label for="email">E-mail</label>
-                <input id="inputThree" class="form"> </input>
+                <label for="email">*E-mail</label>
+                <input id="inputThree" class="form" name = "email"required> </input>
                 </div> 
             
                 <div class="contenedorRegistros">
                 <label for="phoneNumber">PhoneNumber</label>
-                <input id="inputFour" class="form"> </input>
+                <input id="inputFour" class="form" name="phoneNumber"> </input>
                 </div>
 
                 <div class="contenedorRegistros">
-                <label for="password">Password</label>
-                <input id="inputFive" class="form"> </input>
+                <label for="password" >*Password</label>
+                <input id="inputFive" class="form" minlength="5" maxlength="15" name="password" required > </input>
                 </div>
  
                 <div class="contenedorRegistros">
-                <label for="cofirmPassword">Confirm Password</label>
-                <input id="inputOSix" class="form"> </input>
+                <label for="cofirmPassword">*Confirm Password</label>
+                <input id="inputOSix" class="form" minlength="5" maxlength="15" name="password"required> </input>
                 </div>
 
-          
-            
-                
-                
-        
-
-    
         </div>
     
         <div class="buttonFooter">
@@ -72,12 +63,10 @@
 
         <button id="signUp"  > Sign Up </button>
         </div>
-        
     
     </div>
     
     </div>
-
-
+ 
 </body>
 </html>
